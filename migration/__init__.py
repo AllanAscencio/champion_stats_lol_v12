@@ -1,0 +1,1 @@
+from migration.settings import DB_NAME
