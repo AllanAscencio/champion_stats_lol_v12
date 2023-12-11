@@ -2,13 +2,7 @@
 import psycopg2
 from flask import Flask, jsonify
 import sqlite3
-from settings import DB_NAME, DB_PASSWORD, DB_USER
-
-# Connection Testing
-# conn = psycopg2.connect(database="games_db", user="postgres", password="afrocs221994")
-# cursor = conn.cursor()
-# cursor.execute("SELECT * FROM champion_stats;")
-# rows = cursor.fetchall()
+from migration.settings import DB_NAME, DB_PASSWORD, DB_USER
 
 
 # Flask App
